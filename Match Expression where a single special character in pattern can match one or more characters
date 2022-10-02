@@ -1,0 +1,65 @@
+// C++ program for pattern matching
+// where a single special character
+// can match one more characters
+#include<bits/stdc++.h>
+
+using namespace std;
+
+// Returns true if pat matches with text
+int regexMatch(string text, string pat)
+{
+	int lenText = text.length();
+	int letPat = pat.length();
+
+	// i is used as an index in pattern
+	// and j as an index in text
+	int i = 0, j = 0;
+
+	// Traverse through pattern
+	while (i < letPat)
+	{
+		// If current character of
+		// pattern is not '#'
+		if (pat[i] != '#')
+		{
+			// If does not match with text
+			if (pat[i] != text[j])
+			return false;
+
+		// If matches, increment i and j
+		i++;
+		j++;
+		}
+
+		// Current character is '#'
+		else
+		{
+			// At least one character
+			// must match with #
+			j++;
+
+			// Match characters with # until
+			// a matching character is found.
+			while (text[j] != pat[i + 1])
+			j++;
+
+			// Matching with # is over,
+			// move ahead in pattern
+			i++;
+		}
+	}
+
+	return (j == lenText);
+}
+
+// Driver code
+int main()
+{
+	string str = "ABABABA";
+	string pat = "A#B#A";
+	if (regexMatch(str, pat))
+		cout << "yes";
+	else
+		cout << "no";
+	return 0;
+}
