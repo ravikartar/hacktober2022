@@ -1,5 +1,3 @@
-
-
 // SUDOKO PUZZLE SOLVER | BACKTRACKING | RECURSION
 
 // Time Complexity : O(N ^ (N ^ 2))
@@ -36,7 +34,6 @@ bool solveSudoku(vector < vector < char >> & board) {
               board[i][j] = '.';
           }
         }
-
         return false;
       }
     }
