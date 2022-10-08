@@ -1,13 +1,3 @@
-/*
-	Task	: Mod_of_Power
-	Author	: Phumipat C. [MAGCARI]
-	School	: RYW
-	Language: C++
-	Explanation Link : https://www.geeksforgeeks.org/multiply-two-polynomials-2/
-	Created	: 03 May 2021 [15:15]
-*/
-
-
 #include<bits/stdc++.h>
 #define all(x) begin(x),end(x)
 #define sz(x) (int)(x).size()
