@@ -1,18 +1,18 @@
 # Welcome To Hacktober 2022 👋
 
 
-**Devkit** is a open source project which contains different code of frontend Projects with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend. *You can submit your projects or raise/claim issues on existing projects*
+**Devkit** is an open source project which contains different codes of Frontend Projects with HTML, CSS, JS, REACT, ANGULAR and APIs etc. making your life easier for learning Frontend Dev. *You can submit your projects or raise/claim issues on existing projects!*
 
 <p align="center">
     <a href="https://www.youtube.com/watch?v=nkuYH40cjo4"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s---vBDpdf1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4u3t0x3fd6ikuzkro5mh.PNG" />
     </a>
 
 
-### We have also take codes from Udemy,30 days of javascript and many more
+### We have also taken codes from Udemy, 30 days of javascript & many more helpful sources.
 
 ## 📌 Introduction
 
-DevKit is open source collection of frontend project made with HTML, CSS, Javascript, React, APIs, Angular etc for uplifting Creative thinking over Binge watching tutorials.
+DevKit is an open-source collection of Frontend Projects made with HTML, CSS, Javascript, React, APIs, Angular, etc. for uplifting Creative Implementation over Tutorial binging.
 
     
 ![Gif](https://user-images.githubusercontent.com/56559378/138270197-ef0e88a9-d2bf-4ef3-a413-d053acdec0a6.gif)
@@ -21,14 +21,14 @@ DevKit is open source collection of frontend project made with HTML, CSS, Javasc
 ## 💥 How to Contribute?
 
 
-- Take a look at the Existing [Issues](https://github.com/anjali1102/Hacktober2022/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/anjali1102/Hacktober2022/issues) or share your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 - Having difficulty in contributing? Read the [Contribution Guide](https://github.com/anjali1102/Hacktober2021/blob/master/CONTRIBUTING.md) for a detailed explanation.
 
-# Show some ❤️ by staring ⭐️ this repository.
+# Show some L❤️VE by ST⭐️RRING this repository!
 
 ## 💻 Languages used in this project
 

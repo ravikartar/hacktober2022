@@ -1,16 +1,16 @@
 height = float(input("Enter your height in cm: "))
-
-if height <= 1:
-    print("Enter valid height!!!!")
-    quit()
+while (height <= 1):
+    print("Enter valid height!")
+    height = float(input("Enter your height in cm: "))
 
 weight = float(input("Enter your weight in kg: "))
-if weight <= 1:
-    print("Enter valid height!!!!")
-    quit()
+while (weight <= 1):
+    print("Enter valid height!")
+    weight = float(input("Enter your weight in kg: "))
 
-BMI = weight / (height/100)**2
-print(f"You BMI is {BMI}")
+BMI = float(weight / (height/100)**2)
+
+print(f"\nYour BMI is {BMI:.2f}")
 if BMI <= 18.4:
     print("You are underweight.")
 elif BMI <= 24.9:
