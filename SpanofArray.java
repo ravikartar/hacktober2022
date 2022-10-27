@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 
-public class SpanOfArray {
+public class SpanofArray {
 	
 	public static void main(String[] args) {
 		
-		Scanner scn = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
-		int tc = scn.nextInt();
+		int tc = sc.nextInt();
 		
 		int arr[] = new int[tc];
 		
@@ -15,7 +15,7 @@ public class SpanOfArray {
 		int min = Integer.MAX_VALUE;
 		
 		for (int i = 0; i < arr.length; i++) {
-			 arr[i] = scn.nextInt();
+			 arr[i] = sc.nextInt();
 			 
 			 if(arr[i]>max)
 			 {
@@ -30,7 +30,7 @@ public class SpanOfArray {
 		
 		System.out.println(max-min);
 		
-		
+		sc.close();
 	}
 
 }
